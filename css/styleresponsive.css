@@ -33,12 +33,28 @@ p{
     display: inline-block;
     margin-top: 40px;
 }
+div{
+	display: block;
+}
 div li{
 	float: left;
 }
 div img{
 	margin: 10px;
 	width: 200px;
+	display: inline-block;
 }
 /* primera manera de hacer el responsive*/
 
+form{
+	position: relative;
+	display: block;
+	width: 80%;
+}
+#email, #mensaje{
+	width: 60%;
+}
+
+#mensaje{
+	height: 400px;
+}
