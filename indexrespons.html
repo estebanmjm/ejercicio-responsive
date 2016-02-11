@@ -6,8 +6,8 @@
   <meta name="Description" content="Sitio web tutorial responsive"/>
   <meta name="keywords" content="education, responsive, tech, makers"/>
   <meta charset="utf-8"/>
-  <link href="css/styleresponsive.css" rel="stylesheet"><!--se deben colocar el vinculo al css normal antes de los archivos .css para el responsive-->
-  <link rel= "stylesheet" type="text/css" media="screen and (max-width: 480px)" href="css/responsive480px.css"/>
+  <link href="css/basic.css" rel="stylesheet"><!--se deben colocar el vinculo al css normal antes de los archivos .css para el responsive-->
+  <link rel= "stylesheet" type="text/css" media="screen and (max-width: 480px)" href="css/mobile.css"/>
   
 </head>
 <body>
@@ -33,19 +33,22 @@
 </ul>
 </div>
 <form>
+	<div class="correo">
+	  <label for="email">email:</label>
+	  <input id="email" type=email>		
+	</div> 
+	<div class="gusto">
+      <label for="check"> Te gustan los gatos?</label>
+	  <input id="check" type=checkbox>
+	</div> 
+	<div class="msj">
+	  <label for="mensaje">Ingrese el por qué:</label>
+   	  <textarea id="mensaje" placeholder="mensaje..."></textarea>
+	</div> 
 	
-	<label for="email">email:</label>
-	<input id="email" type=email>
+	<input id="enviar" type=submit>
 
-    <label for="check"> Te gustan los gatos?</label>
-	<input id="check" type=checkbox>
-	
-	<label for="mensaje">Ingrese el por qué:</label>
-	<textarea id="mensaje" placeholder="mensaje..."></textarea>
-
-	<input type=submit>
-
-	<input type=button value="Guardar">
+	<input id="guardar" type=button value="Guardar">
 
 	
 	  	
