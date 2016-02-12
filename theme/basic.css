@@ -1,0 +1,52 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+h1{
+	background: gray;
+	color: white;
+	margin-top: 30px;
+	margin-left: 15px;
+	padding-left: 5px;
+}
+nav li a{
+	background: blue;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;/* si no coloco este tipo de display, el background de cada uno se va atraslapar*/
+    margin: 2px;
+}
+ul{
+	list-style: none;
+}
+nav{
+	display: block;
+}
+p{
+	width: 100%;
+    display: inline-block;
+    margin-top: 40px;
+    text-align: justify;
+}
+div{
+	display: block;
+}
+
+
+div img{
+	margin: 10px;
+	width: 200px;
+	display: inline-block;
+}
+form{
+	position: relative;
+	display: block;
+	
+}
+.correo, .gusto, .msj, #enviar, #guardar
+#email, #mensaje{
+
+display: block;
+
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+  <meta name="Author" content="Esteban Jimenez"/>
+  <meta name="Description" content="Sitio web tutorial responsive"/>
+  <meta name="keywords" content="education, responsive, tech, makers"/>
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap theme -->
+  <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="basic.css" rel="stylesheet">
+
+  <title>Responsive Design</title>
+
+</head>
+<body>
+<header>
+	<h1>Responsive Design</h1>
+	    <div class="container">
+	        <div class="row" >
+	            <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+	            	<nav >
+	            	    <ul>
+			                <li><a href="#">Artwork</a></li>
+			                <li><a href="#">Think Vitamin</a></li>
+			                <li><a href="#">8 Faces</a></li>
+		                </ul>
+		            </nav>
+	            </div>
+	            
+	            <section class="col-xs-12 col-sm-9 col-md-10 col-lg-10">
+	                <p>With the wide-spread adoption of viewport units in browsers, we can finally achieve what i call fluid typography. By this, I mean type that inherently fits in its surroundings, not by reflowing, but by resizing, keeping size relationships, line-heights, and copy-fitting in tact. This shift means lesscaveats in our designs, and in our markup. Less work, for better output, resulting in more project time to worry about things like performance budgets.</p>
+                </section>
+	        </div>
+	    </div>
+</header>
+
+<div class="container">
+<div class="row">
+    <ul>
+	    <li><img class="col-xs-12 col-sm-6 col-md-3 col-lg-3" src="img/cute-cat.jpg"></li>
+	    <li><img class="col-xs-12 col-sm-6 col-md-3 col-lg-3" src="img/cute-cat.jpg"></li>
+	    <li><img class="col-xs-12 col-sm-6 col-md-3 col-lg-3" src="img/cute-cat.jpg"></li>
+	    <li><img class="col-xs-12 col-sm-6 col-md-3 col-lg-3" src="img/cute-cat.jpg"></li>
+    </ul>
+</div>
+</div>
+</div>
+<div class="container">
+    <form="row">
+	    <div class="correo">
+	        <div class="col-xs-12 col-sm-10 col-md-6 col-lg-6">
+	            <label for="email">email:</label>
+	            <input id="email" type=email>
+	        </div>		
+	    </div> 
+	    <div class="gusto">
+	        <div class="col-xs-12 col-sm-10 col-md-4 col-lg-4">
+                <label for="check"> Te gustan los gatos?</label>
+	            <input class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="check" type=checkbox>
+	        </div>    
+	    </div> 
+	    <div class="msj">
+	        <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+	            <label for="mensaje">Ingrese el por qué:</label>
+   	            <textarea class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="mensaje" placeholder="mensaje..."></textarea>
+   	        </div>
+	    </div> 
+	    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+	       <input id="enviar" type=submit>
+	    </div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+	       <input id="guardar" type=button value="Guardar">
+	    </div>
+    </form>
+</div>
+
+ <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
