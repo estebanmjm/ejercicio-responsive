@@ -17,6 +17,23 @@ nav li a{
     display: block;/* si no coloco este tipo de display, el background de cada uno se va atraslapar*/
     margin: 2px;
 }
+
+nav li a:hover{
+	background-color: #434343;
+	list-style: none;
+	color: #fff;
+}
+
+nav ul ul{
+	display: none;
+	position: absolute;
+	min-width: 150px;
+	left: 180px;
+}
+nav > ul:hover > ul {
+	display: block;
+
+}
 ul{
 	list-style: none;
 }
